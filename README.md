@@ -184,14 +184,14 @@ You can also run your tests from Gradle.
 To run a specific test, pass it via its FQN:
 
 ```shell
-./gradlew test --tests 'aockt.y9999.Y9999D01Test'
+./gradlew test --tests 'aockt.y2023.Y9999D01Test'
 ```
 
 You may also filter and run tests in bulk.
 For example, running all tests within the same year package:
 
 ```shell
-./gradlew test --tests 'aockt.y9999'
+./gradlew test --tests 'aockt.y2023'
 ```
 
 If for whatever reason you want to run tests in bulk but skip the parts that have been marked as expensive, you can 
